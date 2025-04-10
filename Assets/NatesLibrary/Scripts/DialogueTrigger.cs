@@ -1,16 +1,13 @@
 using UnityEngine;
-
+using System.IO;
+using JetBrains.Annotations;
 public class DialogueTrigger : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public Dialogue dialogue;
 
-    // Update is called once per frame
-    void Update()
+    public void TriggerDialogue()
     {
+        FindAnyObjectByType<DialogueManager>().StartDialogue(dialogue);
         
     }
 }

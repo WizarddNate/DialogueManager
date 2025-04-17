@@ -52,6 +52,8 @@ namespace NatesLibrary //if in subfolder, write .subfoldername
         public void StartTimerFromEvent()
         {
             StartTimer();
+
+            //ScoreManager.instance.AddPoints();
         }
 
         public void StopTimer()
@@ -71,5 +73,3 @@ namespace NatesLibrary //if in subfolder, write .subfoldername
     }
 
 }
-
-

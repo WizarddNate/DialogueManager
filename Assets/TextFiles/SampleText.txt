@@ -1,5 +1,8 @@
-Hello, World!
 
-This has been a sample text file.
+John "Hello, \"World!\"" playSong("Intro Song" -v 1)
 
-EndQueue
+setScene("CreepyForest" -s 5.5)
+
+Stevie "Shut up, John."
+
+John "I hate you Stevie. I hate you so, so much..."

@@ -1,8 +1,21 @@
 
-John "Hello, \"World!\"" playSong("Intro Song" -v 1)
+John "Hello, World!"
 
 setScene("CreepyForest" -s 5.5)
 
 Stevie "Shut up, John."
 
 John "I hate you Stevie. I hate you so, so much..."
+
+Stevie "..."
+
+John "..."
+
+John "Stevie... why- why are you looking at me like that?"
+
+Stevie "I'm tired of fighting, John."
+Stevie "I love you. I want you. I'm tired of pretending that I don't."
+
+John "Stevie- I..."
+
+Narrator "The two run into each others arms. With tears in their eyes, they share a passionate kiss."

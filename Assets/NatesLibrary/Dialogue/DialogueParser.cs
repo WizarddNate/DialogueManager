@@ -10,7 +10,7 @@ namespace NatesLibrary.Dialogue
         private const string commandRegexPattern = "\\w*[^\\s]\\("; //a word of any length as long as it is not proceceded by white space
 
         //pass in the string straight from the dialogue menu
-        public static DialogueLine Parse(string rawLine)
+        public static NatesLibrary.Dialogue.DialogueLine Parse(string rawLine)
         {
             Debug.Log($"Parsing Line: '{rawLine}'");
 
@@ -18,7 +18,7 @@ namespace NatesLibrary.Dialogue
 
             Debug.Log($"Speaker = '{speaker}'\nDialogue = '{dialogue}'\nCommands = '{commands}'");
 
-            return new DialogueLine( speaker, dialogue, commands );
+            return new NatesLibrary.Dialogue.DialogueLine( speaker, dialogue, commands );
         }
 
 
@@ -62,7 +62,7 @@ namespace NatesLibrary.Dialogue
                     return ("", "", rawLine.Trim());
             }
 
-            Debug.Log("dialogStart: " + dialogueStart + " dialogEnd:" + dialogueEnd + " c " + commandStart);
+            //Debug.Log("dialogStart: " + dialogueStart + " dialogEnd:" + dialogueEnd + " c " + commandStart);
 
             //Figure out whether the line is dialogue or if it is a multi word argument in a command
             if (dialogueStart != -1 && dialogueEnd != -1 && (commandStart == -1 || commandStart > dialogueEnd))

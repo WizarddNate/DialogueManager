@@ -1,10 +1,8 @@
-using UnityEngine;
 using NatesLibrary.Dialogue;
-using NUnit.Framework;
-using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
-public class TestParser : MonoBehaviour
+public class TestConvo : MonoBehaviour
 {
     //TEST ONLY SCRIPT. DELETE LATER !!!
 
@@ -12,17 +10,14 @@ public class TestParser : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SendFileToParse();
+        StartConversation();
     }
 
     // Update is called once per frame
-    void SendFileToParse()
+    void StartConversation()
     {
         List<string> lines = TextFileManager.ReadTextAsset(file, false);
 
-        foreach (string line in lines)
-        {
-            NatesLibrary.Dialogue.DialogueLine dl = DialogueParser.Parse(line);
-        }
+        DialogueManager.instance.Say(lines);
     }
 }

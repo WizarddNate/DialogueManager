@@ -5,6 +5,6 @@ using TMPro;
 public class DialogueContainer
 {
     public GameObject root;
-    public TextMeshProUGUI nameTag;
+    public NatesLibrary.Dialogue.NameContainter nameConainter;
     public TextMeshProUGUI dialogueText;
 }

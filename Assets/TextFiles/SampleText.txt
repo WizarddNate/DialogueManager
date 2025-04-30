@@ -1,21 +1,40 @@
 
-John "Hello, World!"
+You "Hello! Lovely day that we're having here!"
 
-setScene("CreepyForest" -s 5.5)
+Janet "Oh, you. What do you want?"
 
-Stevie "Shut up, John."
+You "Thats no way to treat a neighbor, Janet!"
 
-John "I hate you Stevie. I hate you so, so much..."
+Janet "Don't play coy! You want something from me."
 
-Stevie "..."
+You "Goodness, so assumptive! What if I was just checking in?"
 
-John "..."
+Janet "Cut the crap! What do you want?!"
 
-John "Stevie... why- why are you looking at me like that?"
+You "..."
 
-Stevie "I'm tired of fighting, John."
-Stevie "I love you. I want you. I'm tired of pretending that I don't."
+Janet "..."
 
-John "Stevie- I..."
+You "....."
 
-Narrator "The two run into each others arms. With tears in their eyes, they share a passionate kiss."
+You "The way that you've been decorating your front lawn has been bothering me."
+
+Janet "I KNEW IT!"
+
+You "You are planting invasive species! That ivy looks beautiful now, but what happens when it chokes out the whole garden!"
+
+You "And your garden gnomes are TACKY!"
+
+Janet "EVERYDAY IT'S THE GNOMES WITH YOU!"
+
+Janet "Get out of my face."
+
+You "You'll agree with me eventually!"
+
+You "..."
+
+You "I'll see you at the HOA meeting tonight, right?"
+
+Janet "You have 3 seconds before I chase you out with the water hose."
+
+narrator "You know from past experience that she isn't joking around. You run off of her property before your favorite shirt gets soaked (again)."

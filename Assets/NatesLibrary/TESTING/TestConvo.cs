@@ -19,5 +19,7 @@ public class TestConvo : MonoBehaviour
         List<string> lines = TextFileManager.ReadTextAsset(file, false);
 
         DialogueManager.instance.Say(lines);
+
+        
     }
 }

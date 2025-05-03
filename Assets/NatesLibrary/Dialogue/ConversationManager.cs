@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace NatesLibrary.Dialogue
@@ -11,6 +12,7 @@ namespace NatesLibrary.Dialogue
 
         private Coroutine process = null;
         public bool isRunning => process != null;
+        public bool isFinished = false;
 
         private TextArchitect architect = null;
         private bool userPrompt = false;
@@ -37,6 +39,8 @@ namespace NatesLibrary.Dialogue
             if (!isRunning)
                 return;
 
+            Debug.Log("Stop talking!");
+            //isFinished = true;
             dialogueManager.StopCoroutine(process);
             process = null;
         }
@@ -45,6 +49,7 @@ namespace NatesLibrary.Dialogue
         {
             for(int i = 0; i < conversation.Count; i++)
             {
+
                 if (string.IsNullOrWhiteSpace(conversation[i])) 
                     continue;
 
@@ -63,11 +68,9 @@ namespace NatesLibrary.Dialogue
         }
         IEnumerator Line_RunDialogue(DialogueLine line)
         {
-            //Show or hide the speaker name
+            //Show the speaker name. Will keep the same name until text file updates it
             if (line.hasSpeaker)
                 dialogueManager.ShowSpeakerName(line.speaker);
-            else
-                dialogueManager.HideSpeakerName();
 
             //Build dialogue
             yield return BuildDialogue(line.dialogue);

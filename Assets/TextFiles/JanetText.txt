@@ -1,4 +1,6 @@
 
+narrator "You go to tell your next door neightbor hello: "
+
 You "Hello! Lovely day that we're having here!"
 
 Janet "Oh, you. What do you want?"
@@ -17,7 +19,7 @@ Janet "..."
 
 You "....."
 
-You "The way that you've been decorating your front lawn has been bothering me."
+You "The way that you've been decorating your front lawn has been bothering me." 
 
 Janet "I KNEW IT!"
 
@@ -37,4 +39,6 @@ You "I'll see you at the HOA meeting tonight, right?"
 
 Janet "You have 3 seconds before I chase you out with the water hose."
 
-narrator "You know from past experience that she isn't joking around. You run off of her property before your favorite shirt gets soaked (again)."
+narrator "You know from past experience that she isn't joking around. You run off of her property before your favorite shirt gets soaked (again)." 
+
+end " "

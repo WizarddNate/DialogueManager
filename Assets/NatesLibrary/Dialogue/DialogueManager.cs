@@ -13,13 +13,14 @@ namespace NatesLibrary.Dialogue
         private ConversationManager conversationManager;
         private TextArchitect architect;
 
-        public static DialogueManager instance;
+        public static DialogueManager instance { get; private set; }
 
         public delegate void DialogueManagerEvent();
         public event DialogueManagerEvent onUserPrompt_Next;
 
         public bool isRunningConversation => conversationManager.isRunning;
 
+        public bool isFinished = false;
 
         private void Awake()
         {
@@ -51,10 +52,16 @@ namespace NatesLibrary.Dialogue
 
         public void ShowSpeakerName(string speakerName = "")
         {
-            //hides the name narrartor's name tag.
-            if (speakerName.ToLower() != "narrator")
+            //jankiest possible way to close out dialogue. Im sorry Eric :pensive emoji:
+            if (speakerName.ToLower() == "end")
             {
-                dialogueContainer.nameConainter.Show(speakerName);
+                conversationManager.StopConversation();
+                isFinished = true;
+    }
+            //hides the name narrartor's name tag.
+            else if (speakerName.ToLower() != "narrator")
+            {
+                dialogueContainer.nameContainter.Show(speakerName);
             }
             else
             {
@@ -62,7 +69,7 @@ namespace NatesLibrary.Dialogue
             }
         }
 
-        public void HideSpeakerName() => dialogueContainer.nameConainter.Hide();
+        public void HideSpeakerName() => dialogueContainer.nameContainter.Hide();
 
         public void Say(string speaker, string dialogue)
         {

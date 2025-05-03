@@ -10,7 +10,7 @@ public class CameraScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       //GetComponent<Camera>().orthographicSize = 3.25f; // Size u want to start with
+       GetComponent<Camera>().orthographicSize = 3.25f; // Size u want to start with
     }
 
     void Update()

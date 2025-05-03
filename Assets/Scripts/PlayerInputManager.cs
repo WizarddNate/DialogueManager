@@ -31,5 +31,16 @@ public class PlayerInputManager : MonoBehaviour
     {
         DialogueManager.instance.OnUserPrompt_Next();
     }
-    
+
+    public void DisablePlayerMovement()
+    {
+        Debug.Log("movement disabled");
+        moveAction.Disable();
+    }
+
+    public void EnablePlayerMovement()
+    {
+        Debug.Log("movement enabled");
+        moveAction.Enable();
+    }
 }

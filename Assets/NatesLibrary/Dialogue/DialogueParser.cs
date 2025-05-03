@@ -12,7 +12,7 @@ namespace NatesLibrary.Dialogue
         //pass in the string straight from the dialogue menu
         public static NatesLibrary.Dialogue.DialogueLine Parse(string rawLine)
         {
-            Debug.Log($"Parsing Line: '{rawLine}'");
+            //Debug.Log($"Parsing Line: '{rawLine}'");
 
             (string speaker, string dialogue, string commands) = RipContent(rawLine);
 

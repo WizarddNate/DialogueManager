@@ -1,0 +1,11 @@
+Distressed Farmer "Our sunflower harvest has been downright abysmal this year."
+
+Distressed Farmer "Nothing will grow. No matter what we do. Nothing."
+
+Distressed Farmer "My wife has been crying herself to sleep each night. I'm not sure how to pay the bills. I have to look my young son in the eyes and tell him why he doesn't get any presents for his birthday this year."
+
+Distressed Farmer "I don't know what we've done to deserve this, but I need to it to stop. I'm begging God for mercy, because I have nothing else left to do."
+
+Distressed Farmer "Look out there. A completely empty field. I'm a failure."
+
+end " "

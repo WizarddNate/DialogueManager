@@ -1,0 +1,7 @@
+Distressed Farmer "We normally have a beautiful sunflower harvest this time of year, but this year, nothing will grow!"
+
+Distressed Farmer "It makes no damn sense. We've tried everything! I think that somebody cursed our soil!"
+
+Distressed Farmer "But what could we possibly have done to make such an enemy! We don't deserve this!!!"
+
+end " "

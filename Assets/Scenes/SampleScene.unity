@@ -552,10 +552,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[VN Controller]'
       objectReference: {fileID: 0}
+    - target: {fileID: 738517639053563440, guid: e2ffe5dd4c7c22a4a80969d26837b019, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6247871466010275958, guid: e2ffe5dd4c7c22a4a80969d26837b019, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 549741295}
+    - target: {fileID: 6247871466010275958, guid: e2ffe5dd4c7c22a4a80969d26837b019, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PromptAdvance
+      objectReference: {fileID: 0}
     - target: {fileID: 7053314782163990911, guid: e2ffe5dd4c7c22a4a80969d26837b019, type: 3}
       propertyPath: m_LocalPosition.x
       value: 621.9345

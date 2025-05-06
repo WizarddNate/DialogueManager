@@ -1,0 +1,11 @@
+Helpful Kid "Hey, did you know that you can hit the SPACEBAR to make text faster, and then hit SPACEBAR again to skip text entirely?"
+
+Helpful Kid "I always use this trick to get through lectures from my grandma faster!"
+
+Helpful Kid "I learn nothing, but I get to go out and play faster!"
+
+You "Thanks for the tip kid, I'll keep that in mind!"
+
+Helpful Kid "You're welcome Mister!"
+
+end " "
